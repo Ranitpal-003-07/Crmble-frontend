@@ -1,0 +1,54 @@
+/* Logo.css */
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo-small .logo-icon {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .logo-medium .logo-icon {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .logo-large .logo-icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .logo-text {
+    font-weight: 700;
+    background: linear-gradient(135deg, #4f46e5, #10b981);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .logo-small .logo-text {
+    font-size: 1.2rem;
+  }
+  
+  .logo-medium .logo-text {
+    font-size: 1.8rem;
+  }
+  
+  .logo-large .logo-text {
+    font-size: 2.5rem;
+  }
+  
+  /* Animation */
+  .logo-container:hover .logo-icon {
+    transform: rotate(10deg);
+    transition: transform 0.3s ease;
+  }
